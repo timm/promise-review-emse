@@ -1,0 +1,810 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{62}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[Agrawal et~al\mbox{.}(2019)]%
+        {agrawal2019dodge}
+\bibfield{author}{\bibinfo{person}{Amritanshu Agrawal}, \bibinfo{person}{Wei
+  Fu}, \bibinfo{person}{Di Chen}, \bibinfo{person}{Xipeng Shen}, {and}
+  \bibinfo{person}{Tim Menzies}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{How to “dodge” complex software analytics}.
+\newblock \bibinfo{journal}{\emph{IEEE TSE}} \bibinfo{volume}{47},
+  \bibinfo{number}{10} (\bibinfo{year}{2019}), \bibinfo{pages}{2182--2194}.
+\newblock
+
+
+\bibitem[Agrawal et~al\mbox{.}(2018)]%
+        {agrawal2018wrong}
+\bibfield{author}{\bibinfo{person}{Amritanshu Agrawal}, \bibinfo{person}{Wei
+  Fu}, {and} \bibinfo{person}{Tim Menzies}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{What is Wrong with Topic Modeling?(and How to Fix
+  it Using Search-based Software Engineering)}.
+\newblock \bibinfo{journal}{\emph{Information and Software Technology}}
+  (\bibinfo{year}{2018}).
+\newblock
+
+
+\bibitem[Agrawal et~al\mbox{.}(2020)]%
+        {agrawal2020better}
+\bibfield{author}{\bibinfo{person}{Amritanshu Agrawal}, \bibinfo{person}{Tim
+  Menzies}, \bibinfo{person}{Leandro~L Minku}, \bibinfo{person}{Markus Wagner},
+  {and} \bibinfo{person}{Zhe Yu}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Better software analytics via “DUO”: Data
+  mining algorithms using/used-by optimizers}.
+\newblock \bibinfo{journal}{\emph{Empirical Software Engineering}}
+  \bibinfo{volume}{25} (\bibinfo{year}{2020}), \bibinfo{pages}{2099--2136}.
+\newblock
+
+
+\bibitem[Amasaki(2020)]%
+        {amasaki2020cross}
+\bibfield{author}{\bibinfo{person}{Sousuke Amasaki}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Cross-version defect prediction: use historical
+  data, cross-project data, or both?}
+\newblock \bibinfo{journal}{\emph{Empirical Software Engineering}}
+  (\bibinfo{year}{2020}), \bibinfo{pages}{1--23}.
+\newblock
+
+
+\bibitem[Biswas and Rajan(2023)]%
+        {Biswas23}
+\bibfield{author}{\bibinfo{person}{Sumon Biswas} {and} \bibinfo{person}{Hridesh
+  Rajan}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{Fairify: Fairness Verification of Neural Networks}.
+  In \bibinfo{booktitle}{\emph{ICSE'23}}. \bibinfo{pages}{1546–1558}.
+\newblock
+\showISBNx{9781665457019}
+\urldef\tempurl%
+\url{https://doi.org/10.1109/ICSE48619.2023.00134}
+\showDOI{\tempurl}
+
+
+\bibitem[Boehm(1981)]%
+        {Boehm1981}
+\bibfield{author}{\bibinfo{person}{B.W. Boehm}.}
+  \bibinfo{year}{1981}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Software Engineering Economics}}.
+\newblock \bibinfo{publisher}{Prentice Hall}.
+\newblock
+
+
+\bibitem[Bowleg(2021)]%
+        {doi:10.2105/AJPH.2020.306031}
+\bibfield{author}{\bibinfo{person}{Lisa Bowleg}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Evolving Intersectionality Within Public Health:
+  From Analysis to Action}.
+\newblock \bibinfo{journal}{\emph{American Journal of Public Health}}
+  \bibinfo{volume}{111}, \bibinfo{number}{1} (\bibinfo{year}{2021}),
+  \bibinfo{pages}{88--90}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.2105/AJPH.2020.306031}
+\showDOI{\tempurl}
+\newblock
+\shownote{PMID: 33326269}.
+
+
+\bibitem[Brighton(2006)]%
+        {brighton2006robust}
+\bibfield{author}{\bibinfo{person}{Henry Brighton}.}
+  \bibinfo{year}{2006}\natexlab{}.
+\newblock \showarticletitle{Robust Inference with Simple Cognitive Models.}. In
+  \bibinfo{booktitle}{\emph{AAAI spring symposium: Between a rock and a hard
+  place: Cognitive science principles meet AI-hard problems}}.
+  \bibinfo{pages}{17--22}.
+\newblock
+
+
+\bibitem[Canellas(2021)]%
+        {canellas21}
+\bibfield{author}{\bibinfo{person}{Marc Canellas}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Defending IEEE Software Standards in Federal
+  Criminal Court}.
+\newblock \bibinfo{journal}{\emph{Computer}} \bibinfo{volume}{54},
+  \bibinfo{number}{6} (\bibinfo{year}{2021}), \bibinfo{pages}{14--23}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/MC.2020.3038630}
+\showDOI{\tempurl}
+
+
+\bibitem[Chakraborty et~al\mbox{.}(2021)]%
+        {Chakraborty}
+\bibfield{author}{\bibinfo{person}{Joymallya Chakraborty},
+  \bibinfo{person}{Suvodeep Majumder}, {and} \bibinfo{person}{Tim Menzies}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Bias in Machine Learning Software: Why? How? What
+  to Do?}. In \bibinfo{booktitle}{\emph{FSE'21}}. \bibinfo{address}{New York,
+  NY, USA}, \bibinfo{pages}{429–440}.
+\newblock
+\showISBNx{9781450385626}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3468264.3468537}
+\showDOI{\tempurl}
+
+
+\bibitem[Chen et~al\mbox{.}(2019)]%
+        {Chen19}
+\bibfield{author}{\bibinfo{person}{Jianfeng Chen}, \bibinfo{person}{Vivek
+  Nair}, \bibinfo{person}{Rahul Krishna}, {and} \bibinfo{person}{Tim Menzies}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{“Sampling” as a Baseline Optimizer for
+  Search-Based Software Engineering}.
+\newblock \bibinfo{journal}{\emph{IEEE TSE}} \bibinfo{volume}{45},
+  \bibinfo{number}{6} (\bibinfo{year}{2019}), \bibinfo{pages}{597--614}.
+\newblock
+
+
+\bibitem[Chen et~al\mbox{.}(2005)]%
+        {chen2005finding}
+\bibfield{author}{\bibinfo{person}{Zhihao Chen}, \bibinfo{person}{Tim Menzies},
+  \bibinfo{person}{Daniel Port}, {and} \bibinfo{person}{D Boehm}.}
+  \bibinfo{year}{2005}\natexlab{}.
+\newblock \showarticletitle{Finding the right data for software cost modeling}.
+\newblock \bibinfo{journal}{\emph{IEEE software}} \bibinfo{volume}{22},
+  \bibinfo{number}{6} (\bibinfo{year}{2005}), \bibinfo{pages}{38--46}.
+\newblock
+
+
+\bibitem[Coaston(2019)]%
+        {Coaston19}
+\bibfield{author}{\bibinfo{person}{Jane Coaston}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock
+\newblock
+\newblock
+\shownote{VOX, May 28. On-line at
+  \url{https://www.vox.com/the-highlight/2019/5/20/18542843/intersectionality-conservatism-law-race-gender-discrimination}}.
+
+
+\bibitem[Cruz et~al\mbox{.}(2021)]%
+        {cruz2021promoting}
+\bibfield{author}{\bibinfo{person}{Andr{\'e}~F Cruz}, \bibinfo{person}{Pedro
+  Saleiro}, \bibinfo{person}{Catarina Bel{\'e}m}, \bibinfo{person}{Carlos
+  Soares}, {and} \bibinfo{person}{Pedro Bizarro}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Promoting fairness through hyperparameter
+  optimization}. In \bibinfo{booktitle}{\emph{2021 IEEE International
+  Conference on Data Mining (ICDM)}}. IEEE, \bibinfo{pages}{1036--1041}.
+\newblock
+
+
+\bibitem[Czerlinski et~al\mbox{.}(1999)]%
+        {czerlinski1999good}
+\bibfield{author}{\bibinfo{person}{Jean Czerlinski}, \bibinfo{person}{Gerd
+  Gigerenzer}, {and} \bibinfo{person}{Daniel~G Goldstein}.}
+  \bibinfo{year}{1999}\natexlab{}.
+\newblock \showarticletitle{How good are simple heuristics?}. In
+  \bibinfo{booktitle}{\emph{Simple Heuristics That Make Us Smart}}.
+  \bibinfo{publisher}{Oxford University Press}.
+\newblock
+
+
+\bibitem[Desharnais(1989)]%
+        {desharnais1989analyse}
+\bibfield{author}{\bibinfo{person}{JM Desharnais}.}
+  \bibinfo{year}{1989}\natexlab{}.
+\newblock \showarticletitle{Analyse statistique de la productivitie des projets
+  informatique a partie de la technique des point des function}.
+\newblock \bibinfo{journal}{\emph{Masters Thesis, University of Montreal}}
+  (\bibinfo{year}{1989}).
+\newblock
+
+
+\bibitem[Faloutsos and Lin(1995)]%
+        {faloutsos1995fastmap}
+\bibfield{author}{\bibinfo{person}{Christos Faloutsos} {and}
+  \bibinfo{person}{King-Ip Lin}.} \bibinfo{year}{1995}\natexlab{}.
+\newblock \showarticletitle{FastMap: A fast algorithm for indexing, data-mining
+  and visualization of traditional and multimedia datasets}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 1995 ACM SIGMOD international
+  conference on Management of data}}. \bibinfo{pages}{163--174}.
+\newblock
+
+
+\bibitem[Gay et~al\mbox{.}(2010)]%
+        {gay2010automatically}
+\bibfield{author}{\bibinfo{person}{Gregory Gay}, \bibinfo{person}{Tim Menzies},
+  \bibinfo{person}{Misty Davies}, {and} \bibinfo{person}{Karen Gundy-Burlet}.}
+  \bibinfo{year}{2010}\natexlab{}.
+\newblock \showarticletitle{Automatically finding the control variables for
+  complex system behavior}.
+\newblock \bibinfo{journal}{\emph{Automated Software Engineering}}
+  \bibinfo{volume}{17} (\bibinfo{year}{2010}), \bibinfo{pages}{439--468}.
+\newblock
+
+
+\bibitem[Gigerenzer(2008)]%
+        {gigerenzer2008heuristics}
+\bibfield{author}{\bibinfo{person}{Gerd Gigerenzer}.}
+  \bibinfo{year}{2008}\natexlab{}.
+\newblock \showarticletitle{Why heuristics work}.
+\newblock \bibinfo{journal}{\emph{Perspectives on psychological science}}
+  \bibinfo{volume}{3}, \bibinfo{number}{1} (\bibinfo{year}{2008}),
+  \bibinfo{pages}{20--29}.
+\newblock
+
+
+\bibitem[Gigerenzer et~al\mbox{.}(1999)]%
+        {gigerenzer1999good}
+\bibfield{author}{\bibinfo{person}{Gerd Gigerenzer}, \bibinfo{person}{Jean
+  Czerlinski}, {and} \bibinfo{person}{Laura Martignon}.}
+  \bibinfo{year}{1999}\natexlab{}.
+\newblock \showarticletitle{How good are fast and frugal heuristics}.
+\newblock \bibinfo{journal}{\emph{Decision science and technology: Reflections
+  on the contributions of Ward Edwards}} (\bibinfo{year}{1999}),
+  \bibinfo{pages}{81--103}.
+\newblock
+
+
+\bibitem[Gigerenzer and Gaissmaier(2011)]%
+        {gigerenzer2011heuristic}
+\bibfield{author}{\bibinfo{person}{Gerd Gigerenzer} {and}
+  \bibinfo{person}{Wolfgang Gaissmaier}.} \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{Heuristic decision making}.
+\newblock \bibinfo{journal}{\emph{Annual review of psychology}}
+  \bibinfo{volume}{62} (\bibinfo{year}{2011}), \bibinfo{pages}{451--482}.
+\newblock
+
+
+\bibitem[Green(2022)]%
+        {green2022flaws}
+\bibfield{author}{\bibinfo{person}{Ben Green}.}
+  \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{The flaws of policies requiring human oversight of
+  government algorithms}.
+\newblock \bibinfo{journal}{\emph{Computer Law \& Security Review}}
+  \bibinfo{volume}{45} (\bibinfo{year}{2022}), \bibinfo{pages}{105681}.
+\newblock
+
+
+\bibitem[Holte(1993)]%
+        {Holte1993VerySC}
+\bibfield{author}{\bibinfo{person}{Robert~C. Holte}.}
+  \bibinfo{year}{1993}\natexlab{}.
+\newblock \showarticletitle{Very Simple Classification Rules Perform Well on
+  Most Commonly Used Datasets}.
+\newblock \bibinfo{journal}{\emph{Machine Learning}}  \bibinfo{volume}{11}
+  (\bibinfo{year}{1993}), \bibinfo{pages}{63--90}.
+\newblock
+\urldef\tempurl%
+\url{https://api.semanticscholar.org/CorpusID:6596}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Hou et~al\mbox{.}(2023)]%
+        {hou2023large}
+\bibfield{author}{\bibinfo{person}{Xinyi Hou}, \bibinfo{person}{Yanjie Zhao},
+  \bibinfo{person}{Yue Liu}, \bibinfo{person}{Zhou Yang},
+  \bibinfo{person}{Kailong Wang}, \bibinfo{person}{Li Li},
+  \bibinfo{person}{Xiapu Luo}, \bibinfo{person}{David Lo},
+  \bibinfo{person}{John Grundy}, {and} \bibinfo{person}{Haoyu Wang}.}
+  \bibinfo{year}{2023}\natexlab{}.
+\newblock \bibinfo{title}{Large Language Models for Software Engineering: A
+  Systematic Literature Review}.
+\newblock
+\newblock
+\showeprint[arxiv]{2308.10620}~[cs.SE]
+
+
+\bibitem[Jalali et~al\mbox{.}(2008)]%
+        {jalali2008optimizing}
+\bibfield{author}{\bibinfo{person}{Omid Jalali}, \bibinfo{person}{Tim Menzies},
+  {and} \bibinfo{person}{Martin Feather}.} \bibinfo{year}{2008}\natexlab{}.
+\newblock \showarticletitle{Optimizing requirements decisions with keys}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 4th international workshop on
+  Predictor models in software engineering}}. \bibinfo{pages}{79--86}.
+\newblock
+
+
+\bibitem[Johnson and Menzies(2023)]%
+        {mathews23}
+\bibfield{author}{\bibinfo{person}{Brittany Johnson} {and} \bibinfo{person}{Tim
+  Menzies}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{Unfairness is everywhere. So what to do? An
+  interview with Jeanna Matthews}.
+\newblock \bibinfo{journal}{\emph{IEEE Software}} (\bibinfo{year}{2023}).
+\newblock
+Issue Nov/Dev.
+
+
+\bibitem[Jureczko and Madeyski(2010)]%
+        {jureczko2010towards}
+\bibfield{author}{\bibinfo{person}{Marian Jureczko} {and} \bibinfo{person}{Lech
+  Madeyski}.} \bibinfo{year}{2010}\natexlab{}.
+\newblock \showarticletitle{Towards identifying software project clusters with
+  regard to defect prediction}. In \bibinfo{booktitle}{\emph{Proceedings of the
+  6th international conference on predictive models in software engineering}}.
+  \bibinfo{pages}{1--10}.
+\newblock
+
+
+\bibitem[Kohavi and John(1997)]%
+        {Kohavi97}
+\bibfield{author}{\bibinfo{person}{Ron Kohavi} {and} \bibinfo{person}{George~H.
+  John}.} \bibinfo{year}{1997}\natexlab{}.
+\newblock \showarticletitle{Wrappers for Feature Subset Selection}.
+\newblock \bibinfo{journal}{\emph{Artificial Intelligence}}
+  \bibinfo{volume}{97}, \bibinfo{number}{1-2} (\bibinfo{year}{1997}),
+  \bibinfo{pages}{273--324}.
+\newblock
+
+
+\bibitem[Larkin et~al\mbox{.}(1980)]%
+        {Larkin1335}
+\bibfield{author}{\bibinfo{person}{Jill Larkin}, \bibinfo{person}{John
+  McDermott}, \bibinfo{person}{Dorothea~P. Simon}, {and}
+  \bibinfo{person}{Herbert~A. Simon}.} \bibinfo{year}{1980}\natexlab{}.
+\newblock \showarticletitle{Expert and Novice Performance in Solving Physics
+  Problems}.
+\newblock \bibinfo{journal}{\emph{Science}} \bibinfo{volume}{208},
+  \bibinfo{number}{4450} (\bibinfo{year}{1980}), \bibinfo{pages}{1335--1342}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1126/science.208.4450.1335}
+\showDOI{\tempurl}
+\showeprint{http://science.sciencemag.org/content/208/4450/1335.full.pdf}
+
+
+\bibitem[Ling and Menzies(2023)]%
+        {ling2023benefits}
+\bibfield{author}{\bibinfo{person}{Xiao Ling} {and} \bibinfo{person}{Tim
+  Menzies}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \bibinfo{title}{On the Benefits of Semi-Supervised Test Case
+  Generation for Cyber-Physical Systems}.
+\newblock
+\newblock
+\showeprint[arxiv]{2305.03714}~[cs.SE]
+
+
+\bibitem[Lustosa and Menzies(2023)]%
+        {lustosa2023optimizing}
+\bibfield{author}{\bibinfo{person}{Andre Lustosa} {and} \bibinfo{person}{Tim
+  Menzies}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{Optimizing Predictions for Very Small Data Sets: a
+  case study on Open-Source Project Health Prediction}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:2301.06577}}
+  (\bibinfo{year}{2023}).
+\newblock
+
+
+\bibitem[Ma et~al\mbox{.}(2014)]%
+        {ma2014changing}
+\bibfield{author}{\bibinfo{person}{Wei~Ji Ma}, \bibinfo{person}{Masud Husain},
+  {and} \bibinfo{person}{Paul~M Bays}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Changing concepts of working memory}.
+\newblock \bibinfo{journal}{\emph{Nature neuroscience}} \bibinfo{volume}{17},
+  \bibinfo{number}{3} (\bibinfo{year}{2014}), \bibinfo{pages}{347--356}.
+\newblock
+
+
+\bibitem[Majumder et~al\mbox{.}(2023)]%
+        {10.1145/3585006}
+\bibfield{author}{\bibinfo{person}{Suvodeep Majumder},
+  \bibinfo{person}{Joymallya Chakraborty}, \bibinfo{person}{Gina~R. Bai},
+  \bibinfo{person}{Kathryn~T. Stolee}, {and} \bibinfo{person}{Tim Menzies}.}
+  \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{Fair Enough: Searching for Sufficient Measures of
+  Fairness}.
+\newblock \bibinfo{journal}{\emph{ACM Trans. Softw. Eng. Methodol.}}
+  (\bibinfo{date}{mar} \bibinfo{year}{2023}).
+\newblock
+\showISSN{1049-331X}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3585006}
+\showDOI{\tempurl}
+\newblock
+\shownote{Just Accepted}.
+
+
+\bibitem[Martignon et~al\mbox{.}(2008)]%
+        {martignon2008categorization}
+\bibfield{author}{\bibinfo{person}{Laura Martignon},
+  \bibinfo{person}{Konstantinos~V Katsikopoulos}, {and} \bibinfo{person}{Jan~K
+  Woike}.} \bibinfo{year}{2008}\natexlab{}.
+\newblock \showarticletitle{Categorization with limited resources: A family of
+  simple heuristics}.
+\newblock \bibinfo{journal}{\emph{Journal of Mathematical Psychology}}
+  \bibinfo{volume}{52}, \bibinfo{number}{6} (\bibinfo{year}{2008}),
+  \bibinfo{pages}{352--361}.
+\newblock
+
+
+\bibitem[Martignon et~al\mbox{.}(2003)]%
+        {martignon2003naive}
+\bibfield{author}{\bibinfo{person}{Laura Martignon}, \bibinfo{person}{Oliver
+  Vitouch}, \bibinfo{person}{Masanori Takezawa}, {and}
+  \bibinfo{person}{Malcolm~R Forster}.} \bibinfo{year}{2003}\natexlab{}.
+\newblock \showarticletitle{Naive and yet enlightened: From natural frequencies
+  to fast and frugal decision trees}.
+\newblock \bibinfo{journal}{\emph{Thinking: Psychological perspective on
+  reasoning, judgment, and decision making}} (\bibinfo{year}{2003}),
+  \bibinfo{pages}{189--211}.
+\newblock
+
+
+\bibitem[Matthews(2023)]%
+        {matthewsshould}
+\bibfield{author}{\bibinfo{person}{Jeanna Matthews}.}
+  \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{How should we regulate AI? Practical Strategies for
+  Regulation and Risk Management from the IEEE1012 Standard for System,
+  Software, and Hardware Verification and Validation.}
+\newblock  (\bibinfo{year}{2023}).
+\newblock
+\newblock
+\shownote{\url{https://ieeeusa.org/assets/public-policy/committees/aipc/How-Should-We-Regulate-AI.pdf}}.
+
+
+\bibitem[Menzies et~al\mbox{.}(2000)]%
+        {menzies2000testing}
+\bibfield{author}{\bibinfo{person}{Tim Menzies}, \bibinfo{person}{Bojan Cukic},
+  \bibinfo{person}{Harshinder Singh}, {and} \bibinfo{person}{John Powell}.}
+  \bibinfo{year}{2000}\natexlab{}.
+\newblock \showarticletitle{Testing nondeterminate systems}. In
+  \bibinfo{booktitle}{\emph{Proceedings 11th International Symposium on
+  Software Reliability Engineering. ISSRE 2000}}. IEEE,
+  \bibinfo{pages}{222--231}.
+\newblock
+
+
+\bibitem[Menzies and Di~Stefano(2004)]%
+        {menzies2004good}
+\bibfield{author}{\bibinfo{person}{Tim Menzies} {and} \bibinfo{person}{Justin~S
+  Di~Stefano}.} \bibinfo{year}{2004}\natexlab{}.
+\newblock \showarticletitle{How good is your blind spot sampling policy}. In
+  \bibinfo{booktitle}{\emph{Eighth IEEE International Symposium on High
+  Assurance Systems Engineering, 2004. Proceedings.}} IEEE,
+  \bibinfo{pages}{129--138}.
+\newblock
+
+
+\bibitem[Menzies et~al\mbox{.}(2006)]%
+        {menzies2006data}
+\bibfield{author}{\bibinfo{person}{Tim Menzies}, \bibinfo{person}{Jeremy
+  Greenwald}, {and} \bibinfo{person}{Art Frank}.}
+  \bibinfo{year}{2006}\natexlab{}.
+\newblock \showarticletitle{Data mining static code attributes to learn defect
+  predictors}.
+\newblock \bibinfo{journal}{\emph{IEEE transactions on software engineering}}
+  \bibinfo{volume}{33}, \bibinfo{number}{1} (\bibinfo{year}{2006}),
+  \bibinfo{pages}{2--13}.
+\newblock
+
+
+\bibitem[Menzies et~al\mbox{.}(2007)]%
+        {menziees07strange}
+\bibfield{author}{\bibinfo{person}{Tim Menzies}, \bibinfo{person}{David Owen},
+  {and} \bibinfo{person}{Julian Richardson}.} \bibinfo{year}{2007}\natexlab{}.
+\newblock \showarticletitle{The Strangest Thing About Software}.
+\newblock \bibinfo{journal}{\emph{Computer}} \bibinfo{volume}{40},
+  \bibinfo{number}{1} (\bibinfo{year}{2007}), \bibinfo{pages}{54--60}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/MC.2007.37}
+\showDOI{\tempurl}
+
+
+\bibitem[Menzies and Singh(2004)]%
+        {menzies2004many}
+\bibfield{author}{\bibinfo{person}{Tim Menzies} {and}
+  \bibinfo{person}{Harhsinder Singh}.} \bibinfo{year}{2004}\natexlab{}.
+\newblock \showarticletitle{Many maybes mean (mostly) the same thing}.
+\newblock \bibinfo{journal}{\emph{Soft Computing in Software Engineering}}
+  (\bibinfo{year}{2004}), \bibinfo{pages}{125--150}.
+\newblock
+
+
+\bibitem[Menzies et~al\mbox{.}(2008)]%
+        {menzies2008implications}
+\bibfield{author}{\bibinfo{person}{Tim Menzies}, \bibinfo{person}{Burak
+  Turhan}, \bibinfo{person}{Ayse Bener}, \bibinfo{person}{Gregory Gay},
+  \bibinfo{person}{Bojan Cukic}, {and} \bibinfo{person}{Yue Jiang}.}
+  \bibinfo{year}{2008}\natexlab{}.
+\newblock \showarticletitle{Implications of ceiling effects in defect
+  predictors}. In \bibinfo{booktitle}{\emph{Proceedings of the 4th
+  international workshop on Predictor models in software engineering}}.
+  \bibinfo{pages}{47--54}.
+\newblock
+
+
+\bibitem[N.C. and Menzies(2023)]%
+        {10.1145/3583565}
+\bibfield{author}{\bibinfo{person}{Shrikanth N.C.} {and} \bibinfo{person}{Tim
+  Menzies}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{Assessing the Early Bird Heuristic (for Predicting
+  Project Quality)}.
+\newblock \bibinfo{journal}{\emph{ACM Trans. Softw. Eng. Methodol.}}
+  \bibinfo{volume}{32}, \bibinfo{number}{5}, Article \bibinfo{articleno}{116}
+  (\bibinfo{date}{jul} \bibinfo{year}{2023}), \bibinfo{numpages}{39}~pages.
+\newblock
+\showISSN{1049-331X}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3583565}
+\showDOI{\tempurl}
+
+
+\bibitem[Neth and Gigerenzer(2015)]%
+        {neth2015heuristics}
+\bibfield{author}{\bibinfo{person}{Hansj{\"o}rg Neth} {and}
+  \bibinfo{person}{Gerd Gigerenzer}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Heuristics: Tools for an uncertain world}.
+\newblock \bibinfo{journal}{\emph{Emerging trends in the social and behavioral
+  sciences: An interdisciplinary, searchable, and linkable resource}}
+  (\bibinfo{year}{2015}).
+\newblock
+
+
+\bibitem[Noble(2018)]%
+        {noble2018algorithms}
+\bibfield{author}{\bibinfo{person}{Safiya~Umoja Noble}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Algorithms of oppression. How search
+  engines reinforce racism}}.
+\newblock \bibinfo{publisher}{New York University Press}, \bibinfo{address}{New
+  York}.
+\newblock
+\showISBNx{978-1-4798-4994-9}
+\urldef\tempurl%
+\url{http://algorithmsofoppression.com/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Olvera-L{\'o}pez et~al\mbox{.}(2010)]%
+        {olvera2010review}
+\bibfield{author}{\bibinfo{person}{J~Arturo Olvera-L{\'o}pez},
+  \bibinfo{person}{J~Ariel Carrasco-Ochoa}, \bibinfo{person}{J~Francisco
+  Mart{\'\i}nez-Trinidad}, {and} \bibinfo{person}{Josef Kittler}.}
+  \bibinfo{year}{2010}\natexlab{}.
+\newblock \showarticletitle{A review of instance selection methods}.
+\newblock \bibinfo{journal}{\emph{Artificial Intelligence Review}}
+  \bibinfo{volume}{34} (\bibinfo{year}{2010}), \bibinfo{pages}{133--143}.
+\newblock
+
+
+\bibitem[Papakroni(2013)]%
+        {papakroni2013data}
+\bibfield{author}{\bibinfo{person}{Vasil Papakroni}.}
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Data carving: Identifying and removing
+  irrelevancies in the data}}.
+\newblock \bibinfo{publisher}{West Virginia University}.
+\newblock
+
+
+\bibitem[Partington et~al\mbox{.}(2015)]%
+        {partington2015reduced}
+\bibfield{author}{\bibinfo{person}{Susan~N Partington}, \bibinfo{person}{Tim~J
+  Menzies}, \bibinfo{person}{Trina~A Colburn}, \bibinfo{person}{Brian~E
+  Saelens}, {and} \bibinfo{person}{Karen Glanz}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Reduced-item food audits based on the nutrition
+  environment measures surveys}.
+\newblock \bibinfo{journal}{\emph{American Journal of Preventive Medicine}}
+  \bibinfo{volume}{49}, \bibinfo{number}{4} (\bibinfo{year}{2015}),
+  \bibinfo{pages}{e23--e33}.
+\newblock
+
+
+\bibitem[Phillips et~al\mbox{.}(2017)]%
+        {phillips2017FFTrees}
+\bibfield{author}{\bibinfo{person}{Nathaniel~D Phillips},
+  \bibinfo{person}{Hansjoerg Neth}, \bibinfo{person}{Jan~K Woike}, {and}
+  \bibinfo{person}{Wolfgang Gaissmaier}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{{FFTrees}: A toolbox to create, visualize, and
+  evaluate fast-and-frugal decision trees}.
+\newblock \bibinfo{journal}{\emph{Judgment and Decision Making}}
+  \bibinfo{volume}{12}, \bibinfo{number}{4} (\bibinfo{year}{2017}),
+  \bibinfo{pages}{344--368}.
+\newblock
+
+
+\bibitem[Platt(2005)]%
+        {platt2005fastmap}
+\bibfield{author}{\bibinfo{person}{John Platt}.}
+  \bibinfo{year}{2005}\natexlab{}.
+\newblock \showarticletitle{Fastmap, metricmap, and landmark mds are all
+  nystr{\"o}m algorithms}. In \bibinfo{booktitle}{\emph{International Workshop
+  on Artificial Intelligence and Statistics}}. PMLR, \bibinfo{pages}{261--268}.
+\newblock
+
+
+\bibitem[Rahman et~al\mbox{.}(2014)]%
+        {rahman2014comparing}
+\bibfield{author}{\bibinfo{person}{Foyzur Rahman}, \bibinfo{person}{Sameer
+  Khatri}, \bibinfo{person}{Earl~T Barr}, {and} \bibinfo{person}{Premkumar
+  Devanbu}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Comparing static bug finders and statistical
+  prediction}. In \bibinfo{booktitle}{\emph{ICSE'14}}.
+\newblock
+
+
+\bibitem[Rees-Jones et~al\mbox{.}(2017)]%
+        {rees2017better}
+\bibfield{author}{\bibinfo{person}{Mitch Rees-Jones}, \bibinfo{person}{Matthew
+  Martin}, {and} \bibinfo{person}{Tim Menzies}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Better predictors for issue lifetime}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:1702.07735}}
+  (\bibinfo{year}{2017}).
+\newblock
+
+
+\bibitem[Rudin(2019)]%
+        {rudin2019explaining}
+\bibfield{author}{\bibinfo{person}{Cynthia Rudin}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Stop explaining black box machine learning models
+  for high stakes decisions and use interpretable models instead}.
+\newblock \bibinfo{journal}{\emph{Nature Machine Intelligence}}
+  \bibinfo{volume}{1}, \bibinfo{number}{5} (\bibinfo{year}{2019}),
+  \bibinfo{pages}{206--215}.
+\newblock
+\showISSN{25225839}
+\urldef\tempurl%
+\url{https://doi.org/10.1038/s42256-019-0048-x}
+\showDOI{\tempurl}
+
+
+\bibitem[Shi et~al\mbox{.}(2023)]%
+        {Shi23}
+\bibfield{author}{\bibinfo{person}{Jieke Shi}, \bibinfo{person}{Zhou Yang},
+  \bibinfo{person}{Bowen Xu}, \bibinfo{person}{Hong~Jin Kang}, {and}
+  \bibinfo{person}{David Lo}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{Compressing Pre-Trained Models of Code into 3 MB}.
+  In \bibinfo{booktitle}{\emph{ASE'22}}. Article \bibinfo{articleno}{24},
+  \bibinfo{numpages}{12}~pages.
+\newblock
+\showISBNx{9781450394758}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3551349.3556964}
+\showDOI{\tempurl}
+
+
+\bibitem[Simon(1956)]%
+        {simon1956rational}
+\bibfield{author}{\bibinfo{person}{Herbert~A. Simon}.}
+  \bibinfo{year}{1956}\natexlab{}.
+\newblock \showarticletitle{Rational choice and the structure of the
+  environment}.
+\newblock \bibinfo{journal}{\emph{Psychological Review}} \bibinfo{volume}{63},
+  \bibinfo{number}{2} (\bibinfo{year}{1956}), \bibinfo{pages}{129--138}.
+\newblock
+
+
+\bibitem[Tawosi et~al\mbox{.}(2023)]%
+        {Tawosi23}
+\bibfield{author}{\bibinfo{person}{Vali Tawosi}, \bibinfo{person}{Rebecca
+  Moussa}, {and} \bibinfo{person}{Federica Sarro}.}
+  \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{Agile Effort Estimation: Have We Solved the Problem
+  Yet? Insights From a Replication Study}.
+\newblock \bibinfo{journal}{\emph{IEEE Transactions on Software Engineering}}
+  \bibinfo{volume}{49}, \bibinfo{number}{4} (\bibinfo{year}{2023}),
+  \bibinfo{pages}{2677--2697}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/TSE.2022.3228739}
+\showDOI{\tempurl}
+
+
+\bibitem[Tu and Menzies(2021)]%
+        {tu2021frugal}
+\bibfield{author}{\bibinfo{person}{Huy Tu} {and} \bibinfo{person}{Tim
+  Menzies}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{FRUGAL: unlocking semi-supervised learning for
+  software analytics}. In \bibinfo{booktitle}{\emph{2021 36th IEEE/ACM
+  International Conference on Automated Software Engineering (ASE)}}. IEEE,
+  \bibinfo{pages}{394--406}.
+\newblock
+
+
+\bibitem[Xia et~al\mbox{.}(2022)]%
+        {xia22}
+\bibfield{author}{\bibinfo{person}{Tianpei Xia}, \bibinfo{person}{Rui Shu},
+  \bibinfo{person}{Xipeng Shen}, {and} \bibinfo{person}{Tim Menzies}.}
+  \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Sequential Model Optimization for Software Effort
+  Estimation}.
+\newblock \bibinfo{journal}{\emph{IEEE Transactions on Software Engineering}}
+  \bibinfo{volume}{48}, \bibinfo{number}{6} (\bibinfo{year}{2022}),
+  \bibinfo{pages}{1994--2009}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/TSE.2020.3047072}
+\showDOI{\tempurl}
+
+
+\bibitem[Xu et~al\mbox{.}(2021)]%
+        {Xu21}
+\bibfield{author}{\bibinfo{person}{Zhou Xu}, \bibinfo{person}{Li Li},
+  \bibinfo{person}{Meng Yan}, \bibinfo{person}{Jin Liu}, \bibinfo{person}{Xiapu
+  Luo}, \bibinfo{person}{John Grundy}, \bibinfo{person}{Yifeng Zhang}, {and}
+  \bibinfo{person}{Xiaohong Zhang}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{A comprehensive comparative study of
+  clustering-based unsupervised defect prediction models}.
+\newblock \bibinfo{journal}{\emph{Journal of Systems and Software}}
+  \bibinfo{volume}{172} (\bibinfo{year}{2021}), \bibinfo{pages}{110862}.
+\newblock
+\showISSN{0164-1212}
+\urldef\tempurl%
+\url{https://doi.org/10.1016/j.jss.2020.110862}
+\showDOI{\tempurl}
+
+
+\bibitem[Yedida et~al\mbox{.}(2023)]%
+        {yedida2023find}
+\bibfield{author}{\bibinfo{person}{Rahul Yedida}, \bibinfo{person}{Hong~Jin
+  Kang}, \bibinfo{person}{Huy Tu}, \bibinfo{person}{Xueqi Yang},
+  \bibinfo{person}{David Lo}, {and} \bibinfo{person}{Tim Menzies}.}
+  \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{How to find actionable static analysis warnings: A
+  case study with FindBugs}.
+\newblock \bibinfo{journal}{\emph{IEEE Transactions on Software Engineering}}
+  (\bibinfo{year}{2023}).
+\newblock
+
+
+\bibitem[Yu et~al\mbox{.}(2019)]%
+        {yu2019improving}
+\bibfield{author}{\bibinfo{person}{Zhe Yu}, \bibinfo{person}{Christopher
+  Theisen}, \bibinfo{person}{Laurie Williams}, {and} \bibinfo{person}{Tim
+  Menzies}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Improving vulnerability inspection efficiency using
+  active learning}.
+\newblock \bibinfo{journal}{\emph{IEEE Transactions on Software Engineering}}
+  \bibinfo{volume}{47}, \bibinfo{number}{11} (\bibinfo{year}{2019}),
+  \bibinfo{pages}{2401--2420}.
+\newblock
+
+
+\bibitem[Zhu(2005)]%
+        {zhu2005semi}
+\bibfield{author}{\bibinfo{person}{Xiaojin~Jerry Zhu}.}
+  \bibinfo{year}{2005}\natexlab{}.
+\newblock \showarticletitle{Semi-supervised learning literature survey}.
+\newblock  (\bibinfo{year}{2005}).
+\newblock
+
+
+\end{thebibliography}
