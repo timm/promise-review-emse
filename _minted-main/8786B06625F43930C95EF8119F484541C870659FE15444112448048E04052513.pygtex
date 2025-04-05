@@ -1,0 +1,25 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
+\PYG{c+c1}{\PYGZsh{}class DATA continued}
+  \PYG{k}{def} \PYG{n+nf}{smo}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{score}\PYG{o}{=}\PYG{k}{lambda} \PYG{n}{B}\PYG{p}{,}\PYG{n}{R}\PYG{p}{:} \PYG{l+m+mi}{2}\PYG{o}{*}\PYG{n}{B}\PYG{o}{\PYGZhy{}}\PYG{n}{R}\PYG{p}{,} \PYG{n}{fun}\PYG{o}{=}\PYG{k+kc}{None}\PYG{p}{)}\PYG{p}{:}
+    \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{Predictive modeling to predict if a new example is }\PYG{l+s+s2}{\PYGZsq{}}\PYG{l+s+s2}{best}\PYG{l+s+s2}{\PYGZsq{}}\PYG{l+s+s2}{ or }\PYG{l+s+s2}{\PYGZsq{}}\PYG{l+s+s2}{rest}\PYG{l+s+s2}{\PYGZsq{}}\PYG{l+s+s2}{\PYGZdq{}}
+    \PYG{k}{def} \PYG{n+nf}{like}\PYG{p}{(}\PYG{n}{row}\PYG{p}{,}\PYG{n}{data}\PYG{p}{)}\PYG{p}{:}
+      \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{Return log likelihood of row belonging to data}\PYG{l+s+s2}{\PYGZdq{}}
+      \PYG{k}{return} \PYG{n}{data}\PYG{o}{.}\PYG{n}{like}\PYG{p}{(}\PYG{n}{row}\PYG{p}{,} \PYG{n+nb}{len}\PYG{p}{(}\PYG{n}{data}\PYG{o}{.}\PYG{n}{rows}\PYG{p}{)}\PYG{p}{,} \PYG{l+m+mi}{2}\PYG{p}{,} \PYG{n}{the}\PYG{o}{.}\PYG{n}{m}\PYG{p}{,} \PYG{n}{the}\PYG{o}{.}\PYG{n}{k}\PYG{p}{)}
+    \PYG{k}{def} \PYG{n+nf}{acquire}\PYG{p}{(}\PYG{n}{best}\PYG{p}{,} \PYG{n}{rest}\PYG{p}{,} \PYG{n}{rows}\PYG{p}{)}\PYG{p}{:}
+      \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{Sort rows best to rest, keep the first (say) 80}\PYG{l+s+s2}{\PYGZpc{}}\PYG{l+s+s2}{\PYGZdq{}}
+      \PYG{n}{chop} \PYG{o}{=} \PYG{n+nb}{int}\PYG{p}{(}\PYG{n+nb}{len}\PYG{p}{(}\PYG{n}{rows}\PYG{p}{)} \PYG{o}{*} \PYG{n}{the}\PYG{o}{.}\PYG{n}{upper}\PYG{p}{)}
+      \PYG{k}{return} \PYG{n+nb}{sorted}\PYG{p}{(}\PYG{n}{rows}\PYG{p}{,} \PYG{n}{key}\PYG{o}{=}\PYG{k}{lambda} \PYG{n}{r}\PYG{p}{:} \PYG{o}{\PYGZhy{}}\PYG{n}{score}\PYG{p}{(}\PYG{n}{like}\PYG{p}{(}\PYG{n}{r}\PYG{p}{,}\PYG{n}{best}\PYG{p}{)}\PYG{p}{,}\PYG{n}{like}\PYG{p}{(}\PYG{n}{r}\PYG{p}{,}\PYG{n}{rest}\PYG{p}{)}\PYG{p}{)}\PYG{p}{)}\PYG{p}{[}\PYG{p}{:}\PYG{n}{chop}\PYG{p}{]}
+    \PYG{c+c1}{\PYGZsh{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}}
+    \PYG{n}{random}\PYG{o}{.}\PYG{n}{shuffle}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{rows}\PYG{p}{)}
+    \PYG{n}{done}\PYG{p}{,} \PYG{n}{todo} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{rows}\PYG{p}{[}\PYG{p}{:}\PYG{n}{the}\PYG{o}{.}\PYG{n}{label}\PYG{p}{]}\PYG{p}{,} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{rows}\PYG{p}{[}\PYG{n}{the}\PYG{o}{.}\PYG{n}{label}\PYG{p}{:}\PYG{p}{]}
+    \PYG{n}{data1} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{clone}\PYG{p}{(}\PYG{n}{done}\PYG{p}{,} \PYG{n}{order}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{)}
+    \PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{n}{the}\PYG{o}{.}\PYG{n}{Label}\PYG{p}{)}\PYG{p}{:}
+      \PYG{k}{if} \PYG{n+nb}{len}\PYG{p}{(}\PYG{n}{todo}\PYG{p}{)} \PYG{o}{\PYGZlt{}} \PYG{l+m+mi}{3}\PYG{p}{:} \PYG{k}{break}
+      \PYG{n}{n} \PYG{o}{=} \PYG{n+nb}{int}\PYG{p}{(}\PYG{n+nb}{len}\PYG{p}{(}\PYG{n}{done}\PYG{p}{)}\PYG{o}{*}\PYG{o}{*}\PYG{n}{the}\PYG{o}{.}\PYG{n}{best} \PYG{o}{+} \PYG{l+m+mf}{.5}\PYG{p}{)}
+      \PYG{n}{top}\PYG{p}{,}\PYG{o}{*}\PYG{n}{todo} \PYG{o}{=} \PYG{n}{acquire}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{clone}\PYG{p}{(}\PYG{n}{data1}\PYG{o}{.}\PYG{n}{rows}\PYG{p}{[}\PYG{p}{:}\PYG{n}{n}\PYG{p}{]}\PYG{p}{)}\PYG{p}{,}
+                          \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{clone}\PYG{p}{(}\PYG{n}{data1}\PYG{o}{.}\PYG{n}{rows}\PYG{p}{[}\PYG{n}{n}\PYG{p}{:}\PYG{p}{]}\PYG{p}{)}\PYG{p}{,}
+                          \PYG{n}{todo}\PYG{p}{)}
+      \PYG{n}{done}\PYG{o}{.}\PYG{n}{append}\PYG{p}{(}\PYG{n}{top}\PYG{p}{)}
+      \PYG{n}{data1} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{clone}\PYG{p}{(}\PYG{n}{done}\PYG{p}{,} \PYG{n}{order}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{)}
+    \PYG{k}{return} \PYG{n}{data1}\PYG{o}{.}\PYG{n}{rows}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{]}\PYG{p}{,}\PYG{n+nb}{len}\PYG{p}{(}\PYG{n}{data1}\PYG{o}{.}\PYG{n}{rows}\PYG{p}{)}
+\end{Verbatim}

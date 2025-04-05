@@ -1,0 +1,220 @@
+This is BibTeX, Version 0.99d (TeX Live 2023)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: spmpsci.bst
+Database file #1: main.bib
+Repeated entry---line 11506 of file main.bib
+ : @article{agrawal2019dodge
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15994 of file main.bib
+ : @inproceedings{faloutsos1995fastmap
+ :                                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 16949 of file main.bib
+ : @inproceedings{vasilescu2015quality
+ :                                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 17111 of file main.bib
+ : @inproceedings{hindle2008large
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 18675 of file main.bib
+ : @inproceedings{nam2015clami
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 19655 of file main.bib
+ : @inproceedings{vasilescu2015quality
+ :                                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 21332 of file main.bib
+ : @inproceedings{vasilescu2015quality
+ :                                    ,
+I'm skipping whatever remains of this entry
+Unbalanced braces---line 21747 of file main.bib
+ : 
+ : }
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 23927 of file main.bib
+ : @inproceedings{vasilescu2015quality
+ :                                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 27909 of file main.bib
+ : @inproceedings{lin2016interactive
+ :                                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 27926 of file main.bib
+ : @inproceedings{amal2014use
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 28283 of file main.bib
+ : @article{kim2008classifying
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 28682 of file main.bib
+ : @article{kamei2012large
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 31250 of file main.bib
+ : @article{kim2008classifying
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 31819 of file main.bib
+ : @inproceedings{menzies2008implications
+ :                                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 32077 of file main.bib
+ : @inproceedings{nam2015clami
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 32347 of file main.bib
+ : @article{agrawal2019dodge
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 33442 of file main.bib
+ : @article{tu2020better
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 35708 of file main.bib
+ : @article{rudin2019explaining
+ :                             ,
+I'm skipping whatever remains of this entry
+Warning--entry type for "gebru21" isn't style-file defined
+--line 35730 of file main.bib
+I was expecting a `,' or a `}'---line 35733 of file main.bib
+ :   
+ :   bootitle=" Oxford Handbook on AI Ethics",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 35776 of file main.bib
+ :       
+ :       eprint={2111.02038},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 36576 of file main.bib
+ : @article {Caliskan183
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 36608 of file main.bib
+ : @article{Skin_Bias
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 36614 of file main.bib
+ : @article{Machine_Bias
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 36622 of file main.bib
+ : @article{Amazon_Bias
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 37560 of file main.bib
+ : @article{green2022flaws
+ :                        ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 37621 of file main.bib
+ : title="Practitioner’s Guide to COMPAS Core."
+ :                                               m
+I'm skipping whatever remains of this entry
+I was expecting an "="---line 37659 of file main.bib
+ :   editor =   {Antonucci, Alessandro and Corani, Giorgio and Campos}, Cassio 
+ :                                                                             Polpo},
+I'm skipping whatever remains of this entry
+Repeated entry---line 37879 of file main.bib
+ : @inproceedings{hindle2008large
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 38212 of file main.bib
+ : @inproceedings{vasilescu2015quality
+ :                                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 40093 of file main.bib
+ : @article{valerdi2010heuristics
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 41042 of file main.bib
+ : @article{kim2008classifying
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 41892 of file main.bib
+ : @article{agrawal2019dodge
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 43335 of file main.bib
+ : @article{tu2020better
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 43483 of file main.bib
+ : @inproceedings{menzies2008implications
+ :                                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 44639 of file main.bib
+ : @article{Chen19
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 45230 of file main.bib
+ : @book{noble2018algorithms
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 46092 of file main.bib
+ : @article{rudin2019explaining
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 46149 of file main.bib
+ : @article{simon1956rational
+ :                           ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "RefB"
+Warning--I didn't find a database entry for "RefJ"
+Warning--to sort, need author or key in Skin_Bias
+Warning--to sort, need author or key in Amazon_Bias
+Warning--to sort, need author or key in Machine_Bias
+Warning--empty author in Amazon_Bias
+Warning--empty journal in Amazon_Bias
+Warning--empty author in Machine_Bias
+Warning--empty author in Skin_Bias
+Warning--empty journal in Skin_Bias
+Warning--can't use both volume and number fields in faloutsos1995fastmap
+Warning--empty journal in kington2009defining
+You've used 57 entries,
+            2945 wiz_defined-function locations,
+            1218 strings with 21275 characters,
+and the built_in function-call counts, 28330 in all, are:
+= -- 2303
+> -- 916
+< -- 17
++ -- 387
+- -- 322
+* -- 1722
+:= -- 3736
+add.period$ -- 90
+call.type$ -- 57
+change.case$ -- 366
+chr.to.int$ -- 0
+cite$ -- 67
+duplicate$ -- 2545
+empty$ -- 2576
+format.name$ -- 360
+if$ -- 6071
+int.to.chr$ -- 0
+int.to.str$ -- 57
+missing$ -- 573
+newline$ -- 257
+num.names$ -- 108
+pop$ -- 1043
+preamble$ -- 1
+purify$ -- 275
+quote$ -- 0
+skip$ -- 722
+stack$ -- 0
+substring$ -- 1254
+swap$ -- 1390
+text.length$ -- 17
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 224
+warning$ -- 10
+while$ -- 191
+width$ -- 59
+write$ -- 614
+(There were 39 error messages)

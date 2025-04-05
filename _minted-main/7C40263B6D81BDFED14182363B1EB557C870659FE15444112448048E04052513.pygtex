@@ -1,0 +1,35 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
+\PYG{k}{def} \PYG{n+nf}{isNum}\PYG{p}{(}\PYG{n}{s}\PYG{p}{)}\PYG{p}{:}  \PYG{k}{return} \PYG{n}{s}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{]}\PYG{o}{.}\PYG{n}{isupper}\PYG{p}{(}\PYG{p}{)}  \PYG{c+c1}{\PYGZsh{} numerics are upper case  \two}
+\PYG{k}{def} \PYG{n+nf}{isGoal}\PYG{p}{(}\PYG{n}{s}\PYG{p}{)}\PYG{p}{:} \PYG{k}{return} \PYG{n}{s}\PYG{p}{[}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{p}{]} \PYG{o+ow}{in} \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{+\PYGZhy{}}\PYG{l+s+s2}{\PYGZdq{}}   \PYG{c+c1}{\PYGZsh{} goal are to be maximimzed (+) or minimize(\PYGZhy{}) \two}
+\PYG{k}{def} \PYG{n+nf}{isUsed}\PYG{p}{(}\PYG{n}{s}\PYG{p}{)}\PYG{p}{:} \PYG{k}{return} \PYG{n}{s}\PYG{p}{[}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{p}{]} \PYG{o}{!=} \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{X}\PYG{l+s+s2}{\PYGZdq{}}    \PYG{c+c1}{\PYGZsh{} columns ending in \PYGZdq{}X\PYGZdq{} are to be ignored. \two}
+
+\PYG{k}{class} \PYG{n+nc}{DATA}\PYG{p}{:} \PYG{c+c1}{\PYGZsh{} Place to hold rows, summarized in the column headers}
+  \PYG{k}{def} \PYG{n+nf+fm}{\PYGZus{}\PYGZus{}init\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{headerAndRows}\PYG{o}{=}\PYG{p}{[}\PYG{p}{]}\PYG{p}{,} \PYG{n}{order}\PYG{o}{=}\PYG{k+kc}{False}\PYG{p}{)}\PYG{p}{:}
+    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{names}\PYG{p}{,}\PYG{o}{*}\PYG{n}{rows} \PYG{o}{=} \PYG{n+nb}{list}\PYG{p}{(}\PYG{n}{headerAndRows}\PYG{p}{)}  \PYG{esc}{\circled{1}}
+    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{rows}\PYG{p}{,} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{x}\PYG{p}{,} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{y} \PYG{o}{=} \PYG{p}{[}\PYG{p}{]}\PYG{p}{,}\PYG{p}{[}\PYG{p}{]}\PYG{p}{,}\PYG{p}{[}\PYG{p}{]}
+    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{cols} \PYG{o}{=} \PYG{p}{[}\PYG{p}{(}\PYG{n}{NUM} \PYG{k}{if} \PYG{n}{isNum}\PYG{p}{(}\PYG{n}{s}\PYG{p}{)} \PYG{k}{else} \PYG{n}{SYM}\PYG{p}{)}\PYG{p}{(}\PYG{n}{s}\PYG{p}{,}\PYG{n}{i}\PYG{p}{)} \PYG{k}{for} \PYG{n}{i}\PYG{p}{,}\PYG{n}{s} \PYG{o+ow}{in} \PYG{n+nb}{enumerate}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{names}\PYG{p}{)}\PYG{p}{]}  \PYG{esc}{\circled{3}}
+    \PYG{p}{[}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{add}\PYG{p}{(}\PYG{n}{row}\PYG{p}{)} \PYG{k}{for} \PYG{n}{row} \PYG{o+ow}{in} \PYG{n}{rows}\PYG{p}{]}
+    \PYG{k}{if} \PYG{n}{order}\PYG{p}{:} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{ordered}\PYG{p}{(}\PYG{p}{)} \PYG{esc}{\circled{5}}
+    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{also}\PYG{p}{(}\PYG{n}{order}\PYG{p}{)}
+
+  \PYG{k}{def} \PYG{n+nf}{also}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{order}\PYG{o}{=}\PYG{k+kc}{False}\PYG{p}{)}\PYG{p}{:} \PYG{esc}{\circled{4}}
+    \PYG{p}{[}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{y} \PYG{k}{if} \PYG{n}{isGoal}\PYG{p}{(}\PYG{n}{c}\PYG{o}{.}\PYG{n}{txt}\PYG{p}{)} \PYG{k}{else} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{x}\PYG{p}{)}\PYG{o}{.}\PYG{n}{append}\PYG{p}{(}\PYG{n}{col}\PYG{p}{)} \PYG{k}{for} \PYG{n}{c} \PYG{o+ow}{in} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{cols} \PYG{k}{if} \PYG{n}{isUsed}\PYG{p}{(}\PYG{n}{c}\PYG{o}{.}\PYG{n}{txt}\PYG{p}{)}\PYG{p}{]}
+
+  \PYG{k}{def} \PYG{n+nf}{add}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,}\PYG{n}{row}\PYG{p}{)}\PYG{p}{:} \PYG{c+c1}{\PYGZsh{} \PYGZdq{}Add row, summarized in column headers.  \circled{6} }
+    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{rows} \PYG{o}{+}\PYG{o}{=} \PYG{p}{[}\PYG{n}{row}\PYG{p}{]}
+    \PYG{p}{[}\PYG{n}{col}\PYG{o}{.}\PYG{n}{add}\PYG{p}{(}\PYG{n}{x}\PYG{p}{)} \PYG{k}{for} \PYG{n}{x}\PYG{p}{,}\PYG{n}{col} \PYG{o+ow}{in} \PYG{n+nb}{zip}\PYG{p}{(}\PYG{n}{row}\PYG{p}{,}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{cols}\PYG{p}{)} \PYG{k}{if} \PYG{n}{x} \PYG{o}{!=} \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{?}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{]} \PYG{c+c1}{\PYGZsh{} Avoid \PYGZsq{}dont know\PYGZsq{} values}
+
+  \PYG{k}{def} \PYG{n+nf}{clone}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{rows}\PYG{o}{=}\PYG{p}{[}\PYG{p}{]}\PYG{p}{,} \PYG{n}{order}\PYG{o}{=}\PYG{k+kc}{False}\PYG{p}{)}\PYG{p}{:} \PYG{c+c1}{\PYGZsh{} Return a DATA of same structure with new rows}
+    \PYG{k}{return} \PYG{n}{DATA}\PYG{p}{(}\PYG{p}{[}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{names}\PYG{p}{]} \PYG{o}{+} \PYG{n}{rows}\PYG{p}{,} \PYG{n}{order}\PYG{o}{=}\PYG{n}{order}\PYG{p}{)}
+
+  \PYG{k}{def} \PYG{n+nf}{ordered}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{)}\PYG{p}{:} \PYG{o}{.}\PYG{o}{.}\PYG{o}{.}      \PYG{c+c1}{\PYGZsh{} Sort rows by distance to heaven}
+  \PYG{k}{def} \PYG{n+nf}{d2h}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,}\PYG{n}{row}\PYG{p}{)}\PYG{p}{:} \PYG{o}{.}\PYG{o}{.}\PYG{o}{.}      \PYG{c+c1}{\PYGZsh{} Return Y\PYGZhy{}distance from row to best Y via Equation \ref{d2h}}
+  \PYG{k}{def} \PYG{n+nf}{dist}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{row1}\PYG{p}{,} \PYG{n}{row2}\PYG{p}{)}\PYG{p}{:} \PYG{c+c1}{\PYGZsh{} Return X\PYGZhy{}distance row1 to row2}
+    \PYG{n}{d} \PYG{o}{=} \PYG{n+nb}{sum}\PYG{p}{(}\PYG{n}{c}\PYG{o}{.}\PYG{n}{dist}\PYG{p}{(}\PYG{n}{row1}\PYG{p}{[}\PYG{n}{c}\PYG{o}{.}\PYG{n}{column}\PYG{p}{]}\PYG{p}{,}\PYG{n}{row2}\PYG{p}{[}\PYG{n}{c}\PYG{o}{.}\PYG{n}{column}\PYG{p}{]}\PYG{p}{)}\PYG{o}{*}\PYG{o}{*}\PYG{n}{the}\PYG{o}{.}\PYG{n}{p} \PYG{k}{for} \PYG{n}{c} \PYG{o+ow}{in} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{x}\PYG{p}{)} \PYG{esc}{\circled{6} }
+    \PYG{k}{return} \PYG{p}{(}\PYG{n}{d}\PYG{o}{/}\PYG{n+nb}{len}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{x}\PYG{p}{)}\PYG{p}{)}\PYG{o}{*}\PYG{o}{*}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{o}{/}\PYG{n}{the}\PYG{o}{.}\PYG{n}{p}\PYG{p}{)}
+
+  \PYG{k}{def} \PYG{n+nf}{like}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,}\PYG{n}{row}\PYG{p}{,}\PYG{n}{nall}\PYG{p}{,}\PYG{n}{nh}\PYG{p}{,}\PYG{n}{m}\PYG{o}{=}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{n}{k}\PYG{o}{=}\PYG{l+m+mi}{2}\PYG{p}{)}\PYG{p}{:} \PYG{c+c1}{\PYGZsh{} Return log likelihood of row is in self  \circled{8}}
+    \PYG{n}{prior} \PYG{o}{=} \PYG{p}{(}\PYG{n+nb}{len}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{rows}\PYG{p}{)} \PYG{o}{+} \PYG{n}{k}\PYG{p}{)} \PYG{o}{/} \PYG{p}{(}\PYG{n}{nall} \PYG{o}{+} \PYG{n}{k}\PYG{o}{*}\PYG{n}{nh}\PYG{p}{)}
+    \PYG{n}{tmp}   \PYG{o}{=} \PYG{p}{[}\PYG{n}{col}\PYG{o}{.}\PYG{n}{like}\PYG{p}{(}\PYG{n}{row}\PYG{p}{[}\PYG{n}{col}\PYG{o}{.}\PYG{n}{colulmn}\PYG{p}{]}\PYG{p}{,} \PYG{n}{m}\PYG{p}{,} \PYG{n}{prior}\PYG{p}{)}  \PYG{k}{for} \PYG{n}{col} \PYG{o+ow}{in} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{x}\PYG{p}{]} \PYG{esc}{\circled{7} }
+    \PYG{k}{return} \PYG{n+nb}{sum}\PYG{p}{(}\PYG{n}{math}\PYG{o}{.}\PYG{n}{log}\PYG{p}{(}\PYG{n}{x}\PYG{p}{)} \PYG{k}{for} \PYG{n}{x} \PYG{o+ow}{in} \PYG{n}{tmp} \PYG{o}{+} \PYG{p}{[}\PYG{n}{prior}\PYG{p}{]}\PYG{p}{)} \PYG{esc}{\circled{9}}
+\end{Verbatim}

@@ -1,0 +1,22 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
+\PYG{k}{class} \PYG{n+nc}{SYM}\PYG{p}{:}  \PYG{c+c1}{\PYGZsh{} Place to summarize a stream of symbols}
+  \PYG{k}{def} \PYG{n+nf+fm}{\PYGZus{}\PYGZus{}init\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,}\PYG{n}{name}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{ }\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{,}\PYG{n}{column}\PYG{o}{=}\PYG{l+m+mi}{0}\PYG{p}{)}\PYG{p}{:} \PYG{esc}{\circled{1}}
+    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{name}\PYG{p}{,} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{column}\PYG{p}{,} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{n}\PYG{p}{,} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{has} \PYG{o}{=} \PYG{n}{txt}\PYG{p}{,} \PYG{n}{column}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{,} \PYG{n}{Counter}\PYG{p}{(}\PYG{p}{)}
+
+  \PYG{k}{def} \PYG{n+nf}{add}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,}\PYG{n}{x}\PYG{p}{)}   \PYG{p}{:} \PYG{o}{.}\PYG{o}{.}\PYG{o}{.}   \PYG{c+c1}{\PYGZsh{} Add one more count for  symbol `x` \circled{8}}
+  \PYG{k}{def} \PYG{n+nf}{dist}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,}\PYG{n}{x}\PYG{p}{,}\PYG{n}{y}\PYG{p}{)}\PYG{p}{:} \PYG{o}{.}\PYG{o}{.}\PYG{o}{.}   \PYG{c+c1}{\PYGZsh{} Using Aha, return  distance between two syms \circled{3}}
+  \PYG{k}{def} \PYG{n+nf}{like}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,}\PYG{n}{x}\PYG{p}{,}\PYG{n}{m}\PYG{p}{,}\PYG{n}{prior}\PYG{p}{)}\PYG{p}{:} \PYG{c+c1}{\PYGZsh{} Return likelihood of x is in self  \circled{4}}
+    \PYG{k}{return} \PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{has}\PYG{o}{.}\PYG{n}{get}\PYG{p}{(}\PYG{n}{x}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{)} \PYG{o}{+} \PYG{n}{m}\PYG{o}{*}\PYG{n}{prior}\PYG{p}{)} \PYG{o}{/} \PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{n} \PYG{o}{+} \PYG{n}{m}\PYG{p}{)} \PYG{esc}{\circled{7}}
+
+\PYG{k}{class} \PYG{n+nc}{NUM}\PYG{p}{:} \PYG{c+c1}{\PYGZsh{} Place to summarize a stream of numbers}
+  \PYG{k}{def} \PYG{n+nf+fm}{\PYGZus{}\PYGZus{}init\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{name}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{ }\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{,}\PYG{n}{column}\PYG{o}{=}\PYG{l+m+mi}{0}\PYG{p}{)}\PYG{p}{:} \PYG{esc}{\circled{1}}
+   \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{name}\PYG{p}{,} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{column}\PYG{p}{,} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{n} \PYG{o}{=} \PYG{n}{name}\PYG{p}{,} \PYG{n}{at}\PYG{p}{,} \PYG{l+m+mi}{0}
+   \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{mu}\PYG{p}{,} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{m2}\PYG{p}{,} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{sd}\PYG{p}{,} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{lo}\PYG{p}{,} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{hi}  \PYG{o}{=} \PYG{l+m+mi}{0}\PYG{p}{,}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mf}{1E30}\PYG{p}{,} \PYG{o}{\PYGZhy{}}\PYG{l+m+mf}{1E30}
+   \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{heaven} \PYG{o}{=}  \PYG{l+m+mi}{0} \PYG{k}{if} \PYG{n}{txt}\PYG{p}{[}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{p}{]} \PYG{o}{==} \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{\PYGZhy{}}\PYG{l+s+s2}{\PYGZdq{}} \PYG{k}{else} \PYG{l+m+mi}{1} \PYG{c+c1}{\PYGZsh{} if ending with \PYGZdq{}\PYGZhy{}\PYGZdq{}, then minimized \circled{2}}
+
+  \PYG{k}{def} \PYG{n+nf}{norm}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,}\PYG{n}{x}\PYG{p}{)}   \PYG{p}{:} \PYG{o}{.}\PYG{o}{.}\PYG{o}{.} \PYG{c+c1}{\PYGZsh{} Return x normalized 0..1, self.lo..self.hi}
+  \PYG{k}{def} \PYG{n+nf}{dist}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,}\PYG{n}{x}\PYG{p}{,}\PYG{n}{y}\PYG{p}{)} \PYG{p}{:} \PYG{o}{.}\PYG{o}{.}\PYG{o}{.} \PYG{c+c1}{\PYGZsh{} Using Aha, return distance between two numerics. \circled{3}}
+  \PYG{k}{def} \PYG{n+nf}{add}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,}\PYG{n}{x}\PYG{p}{)}    \PYG{p}{:} \PYG{o}{.}\PYG{o}{.}\PYG{o}{.} \PYG{c+c1}{\PYGZsh{} Use x to incrementally update lo,hi, mu, and sd \circled{8}}
+  \PYG{k}{def} \PYG{n+nf}{like}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,}\PYG{n}{x}\PYG{p}{,}\PYG{o}{*}\PYG{n}{\PYGZus{}}\PYG{p}{)}\PYG{p}{:}     \PYG{c+c1}{\PYGZsh{} Return prob of x in a normal pdf of self.mu and self.sd \circled{7}}
+    \PYG{k}{return} \PYG{esc}{$\frac{1}{(\sigma+\epsilon)\sqrt{2\pi}} \exp\left(-(x-\mu)^2/(2\sigma^2 +\epsilon)\right)$} \PYG{esc}{\circled{6}}
+\end{Verbatim}
